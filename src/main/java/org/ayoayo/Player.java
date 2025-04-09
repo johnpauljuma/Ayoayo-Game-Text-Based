@@ -11,7 +11,7 @@ public class Player {
         this.name = name;
         this.store = 0;
         this.pits = new int[6];
-        Arrays.fill(this.pits, 4); // Initial 4 seeds in each pit
+        Arrays.fill(this.pits, 4);
     }
 
     // Getters and setters
