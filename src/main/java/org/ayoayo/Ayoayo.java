@@ -23,7 +23,7 @@ public class Ayoayo {
             player2 = new Player(name);
             return player2;
         }
-        return null; // Both players already created
+        return null;
     }
 
     public void printBoard() {
