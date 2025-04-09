@@ -1,0 +1,32 @@
+Initial Reflection
+When I first reviewed the Ayoayo assignment, I recognized it as a great opportunity to apply object-oriented programming (OOP) principles in Java. The project required not only technical skills but also a strong understanding of game logic and rules. My first step was to study the official Ayoayo rules and break them down into simple, programmable steps.
+
+From there, I identified the main components needed: two players with their own pits and stores, and a central class to manage gameplay. I immediately decided to separate concerns by creating two main classes:
+
+A Player class to represent each player’s state
+
+An Ayoayo class to manage the overall game logic, board state, rules, and player actions
+
+I knew the playGame method would be the most complex, as it needed to handle sowing seeds, managing captures, extra turns, and checking the game's end state. I also noted the need to handle input validation and maintain proper encapsulation using private data members.
+
+Final Reflection
+As I implemented the project, I stuck to the original class design but made a few improvements during development. Initially, I thought about using a single board array, but later decided it was cleaner to keep each player's pits and store within the Player class. This made it easier to manage turns and apply the game rules properly.
+
+One of the trickiest parts was handling the two special rules:
+
+Giving an extra turn when the last seed lands in the player's own store.
+
+Capturing seeds when the last seed lands in an empty pit on the player's side and the opposite pit has seeds.
+
+I tested several scenarios to make sure both rules worked correctly. I also ensured that the game ends when one player's pits are empty and the remaining seeds are collected correctly.
+
+I used a simple text-based interface for output, as required, and built a sample Main class to simulate gameplay and demonstrate the game’s functionality.
+
+Key Takeaways
+This project strengthened my understanding of Java OOP, especially in how to model real-world systems with classes and methods.
+
+I practiced working with arrays, encapsulation, and control flow in a meaningful, applied way.
+
+I learned how to translate written rules into structured logic and account for edge cases and special conditions.
+
+It reinforced the importance of breaking a large problem into smaller manageable parts and testing often.
